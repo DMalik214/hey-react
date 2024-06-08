@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hey-react/static/css/main.06a3fe11.css",
+    "main.js": "/hey-react/static/js/main.72f3c5ac.js",
+    "index.html": "/hey-react/index.html",
+    "main.06a3fe11.css.map": "/hey-react/static/css/main.06a3fe11.css.map",
+    "main.72f3c5ac.js.map": "/hey-react/static/js/main.72f3c5ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06a3fe11.css",
+    "static/js/main.72f3c5ac.js"
+  ]
+}
