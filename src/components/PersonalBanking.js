@@ -15,7 +15,6 @@ const Box = styled.div`
   background-color: #111;
   border-radius: 15px;
   width: 80%;
-  height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,10 +22,8 @@ const Box = styled.div`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
   @media (max-width: 768px) {
-    width: 100%;
-    height: auto;
+    width: 90%;
     flex-direction: column;
-    padding: 10px;
   }
 `;
 
@@ -37,7 +34,7 @@ const PersonalSection = styled.section`
   width: 100%;
 
   @media (max-width: 768px) {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 `;
 
@@ -46,7 +43,7 @@ const PersonalContent = styled.div`
   flex-direction: column;
   justify-content: center;
   max-width: 50%;
-  font-family: GT American Trial;
+  font-family: 'GT American Trial', sans-serif;
 
   @media (max-width: 768px) {
     max-width: 100%;
@@ -62,6 +59,7 @@ const PersonalTitle = styled.h2`
 
   @media (max-width: 768px) {
     font-size: 28px;
+    margin-bottom: 10px;
   }
 `;
 
@@ -80,6 +78,7 @@ const PersonalItem = styled.div`
   @media (max-width: 768px) {
     margin-left: 0;
     text-align: left;
+    padding: 0 10px;
   }
 `;
 
@@ -116,11 +115,11 @@ const PersonalBanking = () => {
             <PersonalItems>
               <PersonalItem>
                 <PersonalHeading alternate={false}>Save</PersonalHeading>
-                <p>We're using technology to solve that by automating saving. You set an amount to save and we takes care of the rest, prompt interest payout included.</p>
+                <p>We're using technology to solve that by automating saving. You set an amount to save and we take care of the rest, prompt interest payout included.</p>
               </PersonalItem>
               <PersonalItem>
                 <PersonalHeading alternate={true}>Spend</PersonalHeading>
-                <p>We give you more than one way to pay easily, including a widely accepted debit card issued in partnership with Visa, quick web payment direct from your amount.</p>
+                <p>We give you more than one way to pay easily, including a widely accepted debit card issued in partnership with Visa, quick web payment direct from your account.</p>
               </PersonalItem>
               <PersonalItem>
                 <PersonalHeading alternate={false}>Send</PersonalHeading>
