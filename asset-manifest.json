@@ -1,13 +1,27 @@
 {
   "files": {
     "main.css": "/hey-react/static/css/main.06a3fe11.css",
-    "main.js": "/hey-react/static/js/main.72f3c5ac.js",
+    "main.js": "/hey-react/static/js/main.efa7bb81.js",
+    "static/media/Hero Image.png": "/hey-react/static/media/Hero Image.35f0ce03fe4c9ad9b5c9.png",
+    "static/media/personalbankingimage.png": "/hey-react/static/media/personalbankingimage.51f27f068bc018cf6b5a.png",
+    "static/media/smallbusiness.png": "/hey-react/static/media/smallbusiness.35e1a482794f1492718c.png",
+    "static/media/bankImg.png": "/hey-react/static/media/bankImg.8fd128b482af22546dc8.png",
+    "static/media/startup.png": "/hey-react/static/media/startup.602422aadc629181a720.png",
+    "static/media/enterprise.png": "/hey-react/static/media/enterprise.2cf56c4664b2043311b9.png",
+    "static/media/Star.png": "/hey-react/static/media/Star.ed265c15c572d49167f3.png",
+    "static/media/Star 2.png": "/hey-react/static/media/Star 2.546069477aa27a8b4f54.png",
+    "static/media/4 1.png": "/hey-react/static/media/4 1.a833e7a1f1446c4b100e.png",
+    "static/media/4 2 (2).png": "/hey-react/static/media/4 2 (2).f20917fd86f09921f8ce.png",
+    "static/media/4 2.png": "/hey-react/static/media/4 2.210d7806e8d2d573c6c1.png",
+    "static/media/4 1 (1).png": "/hey-react/static/media/4 1 (1).49ed25964dbf68a2a75f.png",
+    "static/media/image 2.png": "/hey-react/static/media/image 2.85399fdb17d7b2c27699.png",
+    "static/media/man.png": "/hey-react/static/media/man.3fcfd6293698d6dce37c.png",
     "index.html": "/hey-react/index.html",
     "main.06a3fe11.css.map": "/hey-react/static/css/main.06a3fe11.css.map",
-    "main.72f3c5ac.js.map": "/hey-react/static/js/main.72f3c5ac.js.map"
+    "main.efa7bb81.js.map": "/hey-react/static/js/main.efa7bb81.js.map"
   },
   "entrypoints": [
     "static/css/main.06a3fe11.css",
-    "static/js/main.72f3c5ac.js"
+    "static/js/main.efa7bb81.js"
   ]
 }
