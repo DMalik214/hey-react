@@ -30,11 +30,6 @@ const Title = styled.h2`
   line-height: 62.9px;
   text-align: left;
   color: #fff;
-
-  @media (max-width: 768px) {
-    font-size: 36px;
-    text-align: center;
-  }
 `;
 
 const FeaturesContainer = styled.div`
@@ -55,32 +50,18 @@ const FeatureBox = styled.div`
   height: 200px;
   box-sizing: border-box;
   border-radius: 15px;
-  ${(props) => (props.dashed ? 'border: 10px dashed #4C27AE;' : 'background: #ED7E02;')};
-
-  @media (max-width: 768px) {
-    flex: 1 1 calc(100% - 10px);
-    height: auto;
-  }
+  ${(props) => (props.dashed ? 'border: 10px dashed #4C27AE;' : 'background: #ED7E02;')}
 `;
 
 const FeatureImage = styled.img`
   max-height: 80px;
   margin-bottom: ${(props) => (props.sideways ? '0' : '20px')};
   margin-right: ${(props) => (props.sideways ? '20px' : '0')};
-
-  @media (max-width: 768px) {
-    margin-bottom: 10px;
-    margin-right: 0;
-  }
 `;
 
 const FeatureText = styled.p`
   margin-top: ${(props) => (props.sideways ? '0' : '10px')};
   font-size: 18px;
-
-  @media (max-width: 768px) {
-    margin-top: 10px;
-  }
 `;
 
 const Features = () => {
