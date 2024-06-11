@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { FaPlus } from 'react-icons/fa';
 
 const FAQSection = styled.section`
   background: #000;
@@ -21,26 +22,56 @@ const Questions = styled.div`
 `;
 
 const Question = styled.div`
-  margin: 20px;
   background: #5300eb;
   color: #fff;
   padding: 20px;
   border-radius: 10px;
   width: 100%;
   max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+`;
+
+const QuestionText = styled.span`
+  flex-grow: 1;
   text-align: left;
 `;
+
+const PlusIcon = styled(FaPlus)`
+  margin-left: 10px;
+`;
+
 
 const FAQ = () => {
   return (
     <FAQSection>
-      <FAQTitle>Frequently Asked Questions</FAQTitle>
+      <FAQTitle>Frequently Asked Question</FAQTitle>
       <Questions>
-        <Question>How much would it require to open an account?</Question>
-        <Question>Is there a minimum operational cost?</Question>
-        <Question>Where can I use my debit cards?</Question>
-        <Question>How much do I get as interest on savings?</Question>
+        <Question>
+          <QuestionText>How much would it require to open an account?</QuestionText>
+          <PlusIcon />
+        </Question>
+        <Question>
+          <QuestionText>Is there a minimum operational cost?</QuestionText>
+          <PlusIcon />
+        </Question>
+        <Question>
+          <QuestionText>Where can I use my debit cards?</QuestionText>
+          <PlusIcon />
+        </Question>
+        <Question>
+          <QuestionText>How much do I get as interest on savings?</QuestionText>
+          <PlusIcon />
+        </Question>
       </Questions>
+      
     </FAQSection>
   );
 };

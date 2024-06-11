@@ -1,5 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import smallbusiness from './smallbusiness.png';
+import startup from './startup.png';
+import enterprise from './enterprise.png';
 
 const BusinessSection = styled.section`
   background: #000;
@@ -24,6 +27,16 @@ const BusinessType = styled.div`
   padding: 20px;
   border: 1px solid #fff;
   border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
+`;
+
+const BusinessImage = styled.img`
+  width: 100%;
+  max-width: 200px;
+  height: auto;
 `;
 
 const BusinessSizes = () => {
@@ -31,9 +44,18 @@ const BusinessSizes = () => {
     <BusinessSection>
       <BusinessTitle>Designed for Businesses of All Sizes</BusinessTitle>
       <BusinessTypes>
-        <BusinessType>For Small Businesses</BusinessType>
-        <BusinessType>For Startups</BusinessType>
-        <BusinessType>For Enterprises</BusinessType>
+        <BusinessType>
+          <BusinessImage src={smallbusiness} alt="small business" />
+          For Small Businesses
+        </BusinessType>
+        <BusinessType>
+          <BusinessImage src={startup} alt="startup" />
+          For Startups
+        </BusinessType>
+        <BusinessType>
+          <BusinessImage src={enterprise} alt="enterprise" />
+          For Enterprises
+        </BusinessType>
       </BusinessTypes>
     </BusinessSection>
   );
